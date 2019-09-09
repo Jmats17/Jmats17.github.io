@@ -1,0 +1,201 @@
+.intro-row {
+    display: flex;
+    justify-content: left;
+    margin-left: 64px;
+    margin-top: 104px;
+    align-items: flex-end;
+}
+
+.intro-col {
+  padding-left: 48px;
+  padding-bottom: 24px;
+  font-size: 2em;
+}
+
+#full_name {
+  font-weight: 700;
+}
+
+#highlighted_skills {
+  color: #7ADFBB;
+  font-weight: 700;
+}
+
+.title-row {
+  text-align: center;
+  padding-bottom: 64px;
+  padding-top: 96px;
+}
+
+.title-row .col span {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.work-row {
+  display: flex;
+  justify-content: left;
+  margin-left: 64px;
+  margin-bottom: 40px;
+}
+
+.work-row .work-info-col {
+  display: inline-grid;
+  align-content: baseline;
+  margin-left: 32px;
+  margin-top: 40px;
+}
+
+.work-info-col .work-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.work-info-col .work-location {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+}
+
+.work-info-col .work-period {
+  font-size: 1.3em;
+  color: #BCBCBC;
+  margin-bottom: 32px;
+}
+
+.work-info-col .work-info-body {
+  display: flex;
+  font-size: 1em
+}
+
+.work-info-body .line-1 {
+  height: inherit;
+  border: 1.5px solid #88E9FF;
+  margin-right: 8px;
+}
+
+.work-info-body .line-2 {
+  height: inherit;
+  border: 1.5px solid #7AD2E6;
+  margin-right: 8px;
+}
+
+.work-info-body .line-3 {
+  height: inherit;
+  border: 1.5px solid #447580;
+  margin-right: 8px;
+}
+
+.project-kratos-row {
+  background-image: url('../images/lightblue_rectangle_img.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-kratos-row .proj-img-col {
+  margin-right: 96px;
+  margin-top: 48px;
+}
+
+.project-kratos-row .project-col {
+  display: inline-grid;
+  align-content: baseline;
+  align-self: flex-end;
+  margin-left: 64px;
+  margin-bottom: 112px;
+  width: 40%;
+}
+
+.project-col .proj-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-col .proj-descrip {
+  font-size: 1.5em;
+  margin-bottom: 24px;
+  color: #B0B0B0;
+  font-weight: lighter;
+}
+
+.project-col .link {
+  color: #65AFBF;
+  font-size: 1.5em;
+}
+
+.project-egghunt-row {
+  background-image: url('../images/lightblue_upsidedown_img.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.project-egghunt-row .proj-img-col {
+  margin-left: 96px;
+  margin-bottom: 48px;
+}
+
+.project-egghunt-row .project-col {
+  display: inline-grid;
+  align-content: baseline;
+  margin-right: 96px;
+  margin-top: 136px;
+  width: 40%;
+  text-align: right;
+}
+
+.project-tldr-row {
+  background-image: url('../images/darkblue_rectangle_img.jpg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1px;
+}
+
+.project-tldr-row .proj-img-col {
+  margin-left: 96px;
+  margin-top: 48px;
+}
+
+.project-tldr-row .project-col {
+  display: inline-grid;
+  align-content: baseline;
+  align-self: flex-end;
+  margin-right: 96px;
+  margin-bottom: 112px;
+  width: 40%;
+  text-align: right;
+}
+
+.project-feedback-row {
+  background-image: url('../images/darkblue_upsidedown_img.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.project-feedback-row .proj-img-col {
+  margin-right: 96px;
+  margin-bottom: 48px;
+}
+
+.project-feedback-row .project-col {
+  display: inline-grid;
+  align-content: baseline;
+  margin-left: 96px;
+  margin-top: 136px;
+  width: 40%;
+  text-align: left;
+}

@@ -3,6 +3,20 @@
   padding-top: 24px;
 }
 
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-row #resume {
+  padding-right: 64px;
+  align-self: flex-end;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: bold;
+}
+
 .intro-row {
     display: flex;
     justify-content: left;

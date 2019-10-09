@@ -11,10 +11,11 @@
 .nav-row #resume {
   padding-right: 64px;
   align-self: flex-end;
-  color: inherit;
+  color: #65AFBF;
   font-family: inherit;
   font-size: 1em;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .intro-row {

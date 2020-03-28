@@ -14,6 +14,12 @@ div {
     height: 100%;
 }
 
+#particles-js {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
 #intro {
     height: 15%;
     margin-top: 16px;
@@ -210,3 +216,27 @@ h2 {
       transform: translateY(0);
     }
 }
+
+
+@media only screen and (max-width: 400px) {
+    
+    #particles-js {
+        width: 480px;
+        height: 1070px;
+    }
+
+    #main-div {
+        width: 480px;
+        height: 1070px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+  }

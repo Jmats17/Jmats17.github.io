@@ -188,3 +188,245 @@ div {
       transform: translateY(0);
     }
 }
+
+
+/*For iPhone X*/
+@media only screen 
+  and (max-width: 380px) 
+  and (max-height: 820px) 
+   { 
+
+    body {
+        margin: 0px;
+    }
+
+    #container {
+        width: 300px;
+        height: 812px;
+        align-items: center;
+    }
+
+    #header {
+        margin: 0px;
+        margin-top: 32px;
+    }
+
+    #header .a {
+        display: none;
+    }
+    #mockup-body {
+        justify-content: unset;
+        margin-top: 40px;
+        width: 350px;
+        margin-left: 32px;
+    }
+
+    #sub-title {
+        color: #3498DB;
+    }
+
+    #main {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .library-stack {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    #list {
+        text-align: left;
+    }
+
+    #list li {
+        color: white;
+    
+    }
+
+    .feature-stack #sub-title {
+        text-align: left;
+    }
+
+    #tasks-list {
+        text-align: left;
+    }
+
+    #tasks-list li {
+        color: white;
+    
+    }
+
+    #down-arrow {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        margin: 0px;
+    }
+
+    .task-stack {
+        margin-left: 0px;
+    }
+
+    .task-stack #sub-title {
+        text-align: left;
+    }
+
+    #features-list {
+        text-align: left;
+    }
+
+    #features-list li {
+        color: white;
+    
+    }
+
+}
+
+
+  /*For iPhone 6,7, 8 Plus*/
+  @media only screen and (min-width: 401px) and (max-width: 420px)and (min-width: 400px)  {
+
+    body {
+        margin: 0px;
+    }
+
+    #particles-js {
+        width: 480px;
+        height: 850px;
+    }
+
+    #main-div {
+        width: 480px;
+        height: 850px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+
+    .dock-bar {
+        width: 95%;
+    }
+  }
+
+  /*For iPhone 6,7, 8*/
+  @media only screen and (max-height: 667px) and (max-width: 400px) {
+    body {
+        margin: 0px;
+    }
+
+    #particles-js {
+        width: 480px;
+        height: 850px;
+    }
+
+    #main-div {
+        width: 480px;
+        height: 850px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+
+    .dock-bar {
+        width: 95%;
+        margin-bottom: 16px;
+    }
+  }
+
+  /*Pixel 2 XL*/
+  @media only screen and (max-height: 830px) and (max-width: 415px) and (min-width: 400px) {
+    body {
+        margin: 0px;
+    }
+
+    #container {
+        width: 480px;
+        height: 960px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+
+    .dock-bar {
+        width: 95%;
+        margin-bottom: 16px;
+    }
+  }
+
+
+  /*Pixel 2*/
+  @media only screen and (max-height: 735px) and (max-width: 415px) and (min-width: 400px)  {
+    body {
+        margin: 0px;
+    }
+
+    #container {
+        width: 400px;
+        height: 812px;
+        align-items: center;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+
+    .dock-bar {
+        width: 95%;
+        margin-bottom: 16px;
+    }
+  }
+
+
+  /*iPhone 11*/
+  @media only screen and (max-height: 900px) and (max-width: 415px) and (min-width: 400px) {
+    body {
+        margin: 0px;
+    }
+
+    #container {
+        width: 480px;
+        height: 1050px;
+        margin: auto;
+    }
+
+    #intro {
+        margin-top: 40px;
+    }
+
+    #iphone {
+        background-image: none;
+        border: none;
+    }
+
+    .dock-bar {
+        width: 95%;
+        margin-bottom: 16px;
+    }
+  }

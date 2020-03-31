@@ -510,3 +510,59 @@ h2 {
         margin-bottom: 72px;
     }
   }
+
+    /*iPhone 11*/
+    @media only screen and (max-height: 896px) and (max-width: 414px) and (min-width: 400px) {
+        body {
+            margin: 0px;
+        }
+    
+        #particles-js {
+            width: 375px;
+            height: 896px;
+        }
+    
+        #main-div {
+            width: 300px;
+            height: 896px;
+            margin: auto;
+        }
+    
+        #intro {
+            margin-top: 48px;
+        }
+    
+        #first-intro {
+            font-size: 22px;
+        }
+    
+        #secondary-intro {
+            font-size: 22px;
+        }
+    
+        #tertiary-intro {
+            font-size: 22px;
+        }
+    
+        #iphone {
+            background-image: none;
+            border: none;
+            width: inherit;
+        }
+    
+        .grid-container {
+            display: grid;
+            grid-row-gap: 40px;
+            grid-auto-rows: 100px;
+            margin-top: 56px;
+        }
+    
+        #app-title {
+            font-size: 14px;
+        }
+    
+        .dock-bar {
+            width: 400px;
+            margin-bottom: 16px;
+        }
+      }

@@ -411,22 +411,48 @@ div {
     }
 
     #container {
-        width: 480px;
-        height: 1050px;
+        width: 414px;
+        height: 900px;
         margin: auto;
     }
 
-    #intro {
-        margin-top: 40px;
-    }
-
-    #iphone {
-        background-image: none;
-        border: none;
-    }
-
-    .dock-bar {
-        width: 95%;
+    #header {
+        height: inherit;
+        margin-left: 24px;
         margin-bottom: 16px;
+    }
+
+    #title-logo {
+        margin-bottom: 24px;
+    }
+
+    #back-img {
+        display: none;
+    }
+
+    #descrip {
+        width: 90%;
+    }
+
+    #mockup-body {
+        margin-left: 16px;
+    }
+
+    #main {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: -40px;
+    }
+
+    .library-stack {
+        width: inherit;
+        
+    }
+
+    #down-arrow {
+        display: none;
+    }
+
+    .task-stack {
     }
   }

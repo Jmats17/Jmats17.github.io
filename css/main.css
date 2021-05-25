@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 0, 0.88);
+    background-color: #0E0D0D;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     overflow: hidden;
@@ -36,6 +36,10 @@ h2 {
     transform: rotate(-90deg);
 }
 
+#ux-title {
+    color: #3498DB;
+}
+
 #first-intro {
     animation: 1s ease-out 0s 1 topToBottom;
 }
@@ -58,7 +62,7 @@ h2 {
     margin: auto;
     width: 480px;
     height: 85%;
-    background-image: linear-gradient(#00B4DB,#0083B0);
+    background-image: linear-gradient(#85D8CE,#085078);
     border-style: solid;
     border-width: 8px;
     border-color: #575656;
@@ -75,60 +79,67 @@ h2 {
     margin-top: 24px;
 }
 
-.shake-col-1 {
+.hedge-col-1 {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.kratos-col-2 {
+.shake-col-2 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.eggseek-col-3 {
+.kratos-col-3 {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.diskspace-col-4 {
+.eggseek-col-4 {
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
 }
 
-.rgb-col-1 {
+.diskspace-col-1 {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
 }
 
-.qtranslate-col-2 {
+.rgb-col-2 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
 }
 
-.tippycalc-col-3 {
+.qtranslate-col-3 {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 2;
 }
 
-.yeoldnews-col-4 {
+.tippycalc-col-4 {
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
+}
+
+.yeoldnews-col-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 
 #app-img {
@@ -163,6 +174,8 @@ h2 {
     background-color:rgba(0, 0, 0, 0.15);
     border-radius: 15px;
     margin-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
   
